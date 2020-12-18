@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>分组 2 copy 12</title>
+    <g id="X-function" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="task备份-2" transform="translate(-880.000000, -263.000000)">
+            <g id="编组" transform="translate(864.000000, 251.000000)">
+                <g id="分组-2-copy" transform="translate(0.000000, 0.000000)">
+                    <g id="分组-2-copy-12" transform="translate(16.000000, 12.000000)">
+                        <path d="M24,6 L24,21.7019864 C24,22.0638419 23.8594909,22.392263 23.6285267,22.6294688 C23.4068976,22.8570871 23.1012998,23 22.7624536,23 L22.7624536,23 L2.23801264,23 C1.8990637,23 1.59331893,22.8570228 1.37157041,22.6293292 C1.14058646,22.3921526 1,22.0637942 1,21.7019864 L1,21.7019864 L1,6 L24,6 Z" id="Path" stroke="#50BED7" stroke-width="2"></path>
+                        <polygon id="Path" fill="#41AAC8" points="18.0359408 19 17.012685 18.2735065 19.4397463 15.0940768 17 11.6979236 18.0443975 11 21 15.1140758"></polygon>
+                        <polygon id="Path" fill="#41AAC8" points="9 20.498642 15.0486815 8 16 8.50507447 9.95131846 21"></polygon>
+                        <polygon id="Path" fill="#41AAC8" points="4 15.1142857 6.95560254 11 8 11.6979592 5.5602537 15.0897959 7.98731501 18.2730612 6.96828753 19"></polygon>
+                        <path d="M25,2.13776722 L25,4 L0,4 L0,2.13776722 C0,0.960095012 0.999628045,0 2.23637716,0 L22.7636228,0 C23.9957225,0 25,0.960095012 25,2.13776722" id="Fill-4" fill="#50BED7"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

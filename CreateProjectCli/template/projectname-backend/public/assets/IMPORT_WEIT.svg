@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="25px" viewBox="0 0 38 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>分组 10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="X-Fuction-Guidline" transform="translate(-1309.000000, -295.000000)">
+            <g id="分组" transform="translate(1291.000000, 287.000000)">
+                <g id="分组-10" transform="translate(18.000000, 8.000000)">
+                    <path d="M37.99987,2.9948973 C34.2317103,1.04435791 31.7025408,2.70994972 29.0520296,7.49383966 L31.4133709,8.91436226 C31.5824994,9.01575329 31.6850515,9.20316833 31.6625776,9.40086521 C31.6551224,9.46487583 31.6358343,9.52759284 31.6046049,9.5825929 C31.5453319,9.69096487 31.4429315,9.77353187 31.3152183,9.8056933 L24.5755196,12.4848162 C24.320223,12.551927 24.0516415,12.3900716 23.9788452,12.1275612 L22.8183512,4.6937211 C22.765103,4.5012878 22.8302058,4.29654306 22.9815633,4.17916053 C23.1344378,4.06086357 23.3405822,4.05847711 23.5100791,4.16078257 L25.9158914,5.60726627 C28.6170936,0.734118327 32.3764977,-2.45664339 38,2.4547771 L38,2.9955664 L37.9998266,2.99491961 L37.99987,2.9948973 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="矩形-copy" stroke="#FFFFFF" stroke-width="4" fill="#FFFFFF" x="2" y="7" width="3.6" height="3.5" rx="1.75"></rect>
+                    <rect id="矩形-copy-2" stroke="#FFFFFF" stroke-width="4" fill="#FFFFFF" x="2" y="15.75" width="3.6" height="3.5" rx="1.75"></rect>
+                    <text id="+" font-family="siemensFontBold,siemensFont, sans-serif" font-size="6" font-weight="bold" fill="#50BED7">
+                        <tspan x="2.04804687" y="10">+</tspan>
+                    </text>
+                    <text id="+-copy" font-family="siemensFontBold,siemensFont, sans-serif" font-size="6" font-weight="bold" fill="#50BED7">
+                        <tspan x="2.04804687" y="20">+</tspan>
+                    </text>
+                    <path d="M15.4794152,24.9998812 C13.2264085,24.9998812 11.4,23.1340761 11.4,20.8331848 L11.4,4.16651812 C11.4,1.86541889 13.2264666,0 15.4794152,0 L19.5589758,0 L19.5589758,1.95308972 L15.4794152,1.95308972 C14.3518647,1.95308972 13.4395331,2.88600713 13.4395331,4.03654189 C13.4395331,8.19040301 13.4395331,11.3057989 13.4395331,13.3827294 C13.4395331,15.0674348 13.4395331,17.5944929 13.4395331,20.9639037 C13.4395331,22.1151812 14.351981,23.0473559 15.4794152,23.0473559 L30.1202358,23.0473559 C31.2458083,23.0473559 32.1601179,22.1154189 32.1601179,20.9639037 L32.1601179,10.4167855 L34.2,10.4167855 L34.2,20.8334819 C34.1999418,23.1345217 32.3730098,25 30.1200031,25 L15.4794152,24.9998812 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <ellipse id="椭圆形-copy-4" stroke="#FFFFFF" stroke-width="4" fill="#50BED7" cx="19" cy="8.75" rx="1" ry="1"></ellipse>
+                    <ellipse id="椭圆形-copy-5" stroke="#FFFFFF" stroke-width="4" fill="#50BED7" cx="19" cy="17.5" rx="1" ry="1"></ellipse>
+                    <path d="M6.33333333,8.75 L17,8.75" id="路径-5-copy" stroke="#FFFFFF" stroke-width="2"></path>
+                    <path d="M6.33333333,17.5 L17,17.5" id="路径-5-copy-2" stroke="#FFFFFF" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

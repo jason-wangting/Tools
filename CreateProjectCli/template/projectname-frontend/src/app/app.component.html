@@ -1,0 +1,101 @@
+<div style='display: flex; flex-direction: column; height: 100%'>
+    <div class='navigation'>
+
+        <span style='position: absolute;left:50%;transform: translateX(-50%)'>Custom Function Block</span>
+      </div>
+      <div class='toolBar'>
+         <div class='toolBar-left'>
+            <div *ngIf='edited' class='dot'></div>
+            <div *ngIf='edited' style='margin-left: 0.31rem; font-weight: bold'>Editing...</div>
+         </div>
+         <div class='toolBar-right'>
+           <div class="path">
+             <span>PATH:&nbsp;&nbsp;</span>
+             <input class="title-name" type="text" [(ngModel)]="model.path"/>
+           </div>
+            
+            <div class='export' (click)="export()">
+              <i class='icon_export'></i>Export
+            </div>    
+         </div>
+      </div>
+      <div class='xFunction-container'>
+          <div style='display: flex;height: 90%'>
+              <div class='xFunction-container-left'>
+                  <div class='block-name'><i class='icon_group'></i>FB Graph Editor</div>
+                  <div style="overflow-y: auto; flex: 1">
+                    <!-- <div class='title' style="font-size: 1.2rem;">
+                      
+                    </div> -->
+                    <input class="title-name" type="text" [(ngModel)]="model.name" (ngModelChange)="onNameChange()"/>
+                    <div class='edit-panel'>
+                      <!-- <div class='event'>
+                        <span class='left'>Event in</span>
+                        <span class='right'>Event out</span>
+                      </div> -->
+                      <div class='data'>
+                        <div class='dataIn'>
+                          <div class='left fill' *ngFor='let event of eventIn;let i = index'>
+                            {{event}}
+                            <span class='close' (click)='deleteEvent(0,i)'>x</span>
+                          </div>
+                          <div class='left plusData' (click)='addEventIn()'>+</div>
+                        </div>
+                        <div class='dataOut'>
+                          <div class='right fill' *ngFor='let event of eventOut;let i = index'>
+                            {{event}}
+                            <span class='close' (click)='deleteEvent(1,i)'>x</span>
+                          </div>
+                          <div class='right plusData' (click)='addEventOut()'>+</div>
+                        </div>
+                      </div>
+                      <div class='X-FB'>
+                      </div>
+                  
+                      <div class='data'>
+                        <div class='dataIn'>
+                          <div class='left fill' *ngFor='let data of dataIn;let i = index'>
+                            {{data}}
+                            <span class='close' (click)='deleteData(0,i)'>x</span>
+                          </div>
+                          <div class='left plusData' (click)='addDataIn()'>+</div>
+                        </div>
+                        <div class='dataOut'>
+                          <div class='right fill' *ngFor='let data of dataOut;let i = index'>
+                            {{data}}
+                            <span class='close' (click)='deleteData(1,i)'>x</span>
+                          </div>
+                          <div class='right plusData' (click)='addDataOut()'>+</div>
+                        </div>
+                      </div>
+                  
+                    </div>
+                  </div>
+            </div>
+            <div class='xFunction-container-right'>
+                  <div class='editor-title'>
+                    <div style='display: flex'>
+                        <i class='icon_code'></i>
+                        Code Editor
+                    </div>
+                    <!-- <i *ngIf='syncSuccess' class=icon_success> {{ 'edit.x_function.synchronous_success'| translate }}</i>
+                    <i *ngIf='syncFail' class=icon_fail>{{ 'edit.x_function.synchronous_failure'| translate }}</i> -->
+                    <div style='display: flex; align-items: center'>
+                        <i style='margin-right: 1.38rem' class='icon_undo' (click)='undo()'></i>
+                        <i style='margin-right: 1.38rem' class='icon_redo' (click)='redo()'></i>
+                        <div class='save_button' (click)='save()'>save</div>
+                    </div>
+                    <!-- <i class='icon_refresh' (click)='refreshCode()'></i> -->
+                  </div>
+                  <div id={{editorId}} class='editor'></div>
+                  <!-- <div class='button-list'>
+                    <button class='cancel' (click)='destroyModal()'>{{ 'common.cancel'| translate }}</button>
+                    <button class='saveAs' (click)='saveSkillas()' *ngIf='!isAdd'>{{ 'common.save_as'| translate }}</button>
+                    <button class='save' (click)='saveXFunction()'>{{ 'common.save'| translate }}</button>
+                  </div> -->
+            </div>
+          </div>
+
+      </div>
+</div>
+

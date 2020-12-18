@@ -1,0 +1,17 @@
+{
+  "name": "createprojectcli",
+  "version": "1.0.0",
+  "description": "this is cli for creating project template",
+  "main": "index.js",
+  "bin": {
+    "create-project-template": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangting",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
